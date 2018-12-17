@@ -14,3 +14,6 @@ Prosper Loan Data contains 113,937 loan information with 81 attributes for each 
 * Finally, I would like to find out what aspects people spent their loans on. I tracked the annual trends of data.
 
 ## Feedback
+
+## Resources
+Github repo: https://github.com/xiegudong45/Udacity_DAND
