@@ -10,12 +10,12 @@ I first created a scatter plot of all tweets and the ideal linear model. Note th
 
 ![](results/1.png)
 
-Since the correlation coefficient is approximately 0.928, it indicates that there's a strong positive relationship between favorite_count and retweet_count.
+Since the correlation coefficient is approximately 0.92, it indicates that there's a strong positive relationship between favorite_count and retweet_count.
 
 ## Most Common Dog Breeds
 I first add two columns called breed and breed_conf, which stands for the kind of the dog in the tweet with its confidence value. We can see that 178 tweets cannot be identified as not a dog. The reason for this is that the image prediction may misclassify these images.
 
-I plot 12 most common dog breeds in a bar chart. According to the plot, the most common dog is Golden Retriever, with almost 140 tweets. The following kinds are Labrador Retriever, Pembroke, Chihuahua, Pug, etc.
+I plot 10 most common dog breeds in a bar chart. According to the plot, the most common dog is Golden Retriever, with almost 70 tweets. The following kinds are Labrador Retriever, Pembroke, Chihuahua, Pug, etc.
 
 However, the result may be a little different from actual data, since the image prediction is not ideal. By taking a glimpse of the data, we see that some breed confidence are considerably low. In further investigations, the result of the image prediction model should be more precise.
 
